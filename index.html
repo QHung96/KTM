@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet">
+<!--	icon-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	
+	
+
+	<div class="container">
+		<div id="mySidenav" class="sidenav">
+			<b>
+  <a href="image/Slide40.jpg" id="about">Thực đơn</a>
+  <a href="index3.html" id="blog">Đăng nhập</a>
+  <a href="index2.html" id="projects">Thông tin</a>
+				
+
+<div id="contact">
+  <a href="#" id="contact">Liên hệ</a></div>
+				<div class="hide">
+					
+					2 VÕ OANH, PHƯỜNG 25, BÌNH THẠNH.<br>
+					LH: (08) 9999 6868<br>
+					Hot mail: nhahangsacviet@hotmail.com.vn
+					
+				</div>
+				
+				</b>
+</div>
+
+<div style="margin-left:80px;">
+ 
+</div>
+		
+		
+		<a href="#">
+ <b><u><p>www.sacviet.com.vn</p></u></b>
+		</a
+			
+		
+		
+	<div class="header">
+		<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="image/Slide5.jpg" style="width:100%">
+  <div class="text">Giới Thiệu</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="image/Slide19.jpg" style="width:100%">
+  <div class="text">Đồng phục</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="image/Slide38.jpg" style="width:100%">
+  <div class="text">Thực đơn</div>
+</div>
+	  
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="image/Slide48.jpg" style="width:100%">
+  <div class="text">Thực đơn</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="image/Slide49.jpg" style="width:100%">
+  <div class="text">Thực đơn</div>
+</div>
+	  
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="image/Slide50.jpg" style="width:100%">
+  <div class="text">Thực đơn</div>
+</div>
+	  
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="image/Slide45.jpg" style="width:100%">
+  <div class="text">Thực đơn</div>
+</div>
+	  
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="image/Slide44.jpg" style="width:100%">
+  <div class="text">Thực đơn</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+</div>
+</div>
+	<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		
+		<div class="dropdown">
+  <button class="dropbtn"><b>ĐẶT BÀN</b></button>
+  <div class="dropdown-content">
+    <a href="#">Bàn 2 người</a>
+    <a href="#">Bàn tập thể</a>
+    <a href="#">Phòng VIP</a>
+  </div>
+			
+</div>
+
+		
+			
+
+		
+			
+
+
+	
+	
+	
+<!--script menu-->
+	<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<!--		script slide-->
+		<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+			<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+			<h1>Giới thiệu</h1><hr width="100%">
+<i>Nội dung mô tả nhà hàng mang đến cho khách hàng tiềm năng cái nhìn sơ lược về trải nghiệm dùng bữa tại nhà hàng.</i><span id="dots">...</span><span id="more"> Tương tự như phần "Giới thiệu" trên trang web, đây là nơi tuyệt vời để đưa vào tuyên bố sứ mệnh và giá trị của quý vị. Quý vị có thể sử dụng không gian này để nói về bất cứ điều gì, nhưng chúng tôi khuyên quý vị nên bắt đầu giới thiệu về trải nghiệm dùng bữa tại nhà hàng, những yếu tố ảnh hưởng đến ẩm thực hoặc nêu bật bất kỳ món ăn đặc trưng nào.
+Nội dung mô tả nhà hàng không nên dài dòng — quý vị chỉ có 700 ký tự — nhưng cần truyền tải được đến khách hàng lý do tại sao nhà hàng của quý vị mang dấu ấn khác lạ hay đặc biệt. Quý vị không biết đưa nội dung gì vào? Hãy xem hướng dẫn xây dựng thương hiệu nhà hàng của chúng tôi hoặc tuyên bố sứ mệnh của quý vị để lấy cảm hứng và phát triển từ đó.</span>
+<button onclick="myFunction()" id="myBtn">Đọc thêm</button>
+
+
+</div>
+<!--		script đọc thêm-->
+		<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Đọc thêm"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Thu gọn"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+		
+		
+		
+		
+
+
+</body>
+</html>
