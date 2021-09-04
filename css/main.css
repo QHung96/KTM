@@ -3,7 +3,7 @@
 /*menu*/
 body {
 font-family:url("../font/Anton-Regular.ttf");
-	box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .overlay {
@@ -81,7 +81,7 @@ span{
 	float: left;
 }
 span:hover{
-	color: gold;
+	color: #fff;
 }
 /*dat ban*/
 .btn{
@@ -205,7 +205,7 @@ p{
 	margin-right: 10px;
 	font-size: 20px;
 }
-p:hover {color: gold}
+p:hover {color: dimgrey}
 /*dropdown*/
 .dropbtn {
   background-color: #fff;
@@ -247,7 +247,7 @@ p:hover {color: gold}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: gold;}
+.dropdown:hover .dropbtn {background-color: gray;}
 /*menu*/
 #mySidenav a {
   position: absolute;
@@ -263,7 +263,7 @@ p:hover {color: gold}
 
 #mySidenav a:hover {
   left: 0;
-	background-color: gold;
+	background-color: gray;
 }
 
 #about {
@@ -308,7 +308,7 @@ p:hover {color: gold}
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .fa-facebook {
@@ -345,3 +345,49 @@ i{
 	border-radius: 20px;
 	color: #8C1E1F;
 }
+/*quang cao*/
+.qc{
+ width: 100px;  
+	height: 0px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  text-align: center;
+  color: #fff;
+  margin-left: 475px;
+  font-size: 35px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 205px; background-color: #8C1D20;}
+}
+.qc2{
+ width: 100px;
+  height: 0px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  text-align: center;
+  color: #fff;
+  margin-left: 1020px;
+  font-size: 35px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 205px; background-color: #8C1D20;}
+}
+
+
+
+
+
