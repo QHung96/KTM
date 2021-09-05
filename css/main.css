@@ -3,7 +3,7 @@
 /*menu*/
 body {
 font-family:url("../font/Anton-Regular.ttf");
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .overlay {
@@ -70,8 +70,8 @@ box-sizing: border-box;
 
 .container{
 	width: 100%;
-	height: 790px;
-	background-image: url("../image/Slide.jpg");
+	height: 850px;
+	background-image: url("../image/Slide.nen.jpg");
 	background-size: cover;
 	box-sizing: border-box; 
 	
@@ -201,9 +201,9 @@ img {vertical-align: middle;}
 p{
 	float: right;
 	color: #fff;
-	margin-top: 610px;
-	margin-right: 10px;
-	font-size: 20px;
+	margin-top: 660px;
+	margin-right: 0px;
+	font-size: 25px;
 }
 p:hover {color: dimgrey}
 /*dropdown*/
@@ -215,7 +215,7 @@ p:hover {color: dimgrey}
   font-size: 17px;
   border: none;
   margin-left: 660px;
-  margin-top: 540px;
+  margin-top: 500px;
   border-radius:20px;
 }
 
@@ -296,15 +296,16 @@ p:hover {color: dimgrey}
 }
 /*icon*/
 .fa {
-  padding: 20px;
+  padding: 11px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   float: right;
-  margin-left: 230px;
-  margin-right: -233px;
-	margin-top: 20px;
+  margin-left: 250px;
+  margin-right: -250px;
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .fa:hover {
@@ -337,6 +338,7 @@ p:hover {color: dimgrey}
 #more {display: none;}
 h1{
 	color: #fff;
+	margin-top: 100px;
 }
 i{
 	color:#fff;
@@ -355,8 +357,8 @@ i{
   animation-delay: 2s;
   animation-fill-mode: both;
   text-align: center;
-  color: #fff;
-  margin-left: 475px;
+  color: #8c1b20;
+  margin-left: 560px;
   font-size: 35px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
@@ -364,7 +366,7 @@ i{
 
 @keyframes example {
   from {top: 0px; background-color: yellow;}
-  to {top: 205px; background-color: #8C1D20;}
+  to {top: 200px; background-color: #8C1D20;}
 }
 .qc2{
  width: 100px;
@@ -375,8 +377,8 @@ i{
   animation-delay: 2s;
   animation-fill-mode: both;
   text-align: center;
-  color: #fff;
-  margin-left: 1020px;
+  color: #8c1b20;
+  margin-left: 940px;
   font-size: 35px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
@@ -384,7 +386,7 @@ i{
 
 @keyframes example {
   from {top: 0px; background-color: yellow;}
-  to {top: 205px; background-color: #8C1D20;}
+  to {top: 200px; background-color: #8C1D20;}
 }
 
 
