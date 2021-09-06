@@ -70,10 +70,11 @@ font-family:url("../font/Anton-Regular.ttf");
 
 .container{
 	width: 100%;
-	height: 850px;
+	height: 830px;
 	background-image: url("../image/Slide.nen.jpg");
 	background-size: cover;
-	box-sizing: border-box; 
+	box-sizing: border-box;
+	
 	
 }
 span{
@@ -236,7 +237,7 @@ p:hover {color: dimgrey}
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  margin-left: 680px;
+  margin-left: 690px;
   border-radius: 35px;
 	text-align: center;
   
@@ -378,7 +379,7 @@ i{
   animation-fill-mode: both;
   text-align: center;
   color: #8c1b20;
-  margin-left: 940px;
+  margin-left: 935px;
   font-size: 35px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
