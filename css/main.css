@@ -71,7 +71,7 @@ font-family:url("../font/Anton-Regular.ttf");
 .container{
 	width: 100%;
 	height: 830px;
-	background-image: url("../image/Slide.nen.jpg");
+	background-image: url("../image/Slide.jpg");
 	background-size: cover;
 	box-sizing: border-box;
 	
@@ -112,6 +112,7 @@ img {vertical-align: middle;}
   max-width: 850px;
   position: relative;
   margin: auto;
+  
 }
 
 /* Next & previous buttons */
@@ -143,7 +144,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #8c1b20;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -358,7 +359,7 @@ i{
   animation-delay: 2s;
   animation-fill-mode: both;
   text-align: center;
-  color: #8c1b20;
+  color: #fff;
   margin-left: 560px;
   font-size: 35px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
@@ -378,7 +379,7 @@ i{
   animation-delay: 2s;
   animation-fill-mode: both;
   text-align: center;
-  color: #8c1b20;
+  color: #fff;
   margin-left: 935px;
   font-size: 35px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
